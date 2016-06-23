@@ -16,6 +16,8 @@
 		FEF1D60C1CA392CF003DBE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF1D60A1CA392CF003DBE31 /* LaunchScreen.storyboard */; };
 		FEF1D6171CA392CF003DBE31 /* cityPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF1D6161CA392CF003DBE31 /* cityPickerDemoTests.m */; };
 		FEF1D6221CA392CF003DBE31 /* cityPickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF1D6211CA392CF003DBE31 /* cityPickerDemoUITests.m */; };
+		FEF1D6301CA392F1003DBE31 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEF1D62F1CA392F1003DBE31 /* Address.plist */; };
+		FEF1D6331CA39330003DBE31 /* mePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF1D6321CA39330003DBE31 /* mePickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		FEF1D61D1CA392CF003DBE31 /* cityPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cityPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF1D6211CA392CF003DBE31 /* cityPickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cityPickerDemoUITests.m; sourceTree = "<group>"; };
 		FEF1D6231CA392CF003DBE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF1D62F1CA392F1003DBE31 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+		FEF1D6311CA39330003DBE31 /* mePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mePickView.h; sourceTree = "<group>"; };
+		FEF1D6321CA39330003DBE31 /* mePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mePickView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,9 @@
 		FEF1D5F81CA392CF003DBE31 /* cityPickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FEF1D62F1CA392F1003DBE31 /* Address.plist */,
+				FEF1D6311CA39330003DBE31 /* mePickView.h */,
+				FEF1D6321CA39330003DBE31 /* mePickView.m */,
 				FEF1D5FC1CA392CF003DBE31 /* AppDelegate.h */,
 				FEF1D5FD1CA392CF003DBE31 /* AppDelegate.m */,
 				FEF1D5FF1CA392CF003DBE31 /* ViewController.h */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEF1D60C1CA392CF003DBE31 /* LaunchScreen.storyboard in Resources */,
+				FEF1D6301CA392F1003DBE31 /* Address.plist in Resources */,
 				FEF1D6091CA392CF003DBE31 /* Assets.xcassets in Resources */,
 				FEF1D6041CA392CF003DBE31 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +284,7 @@
 			files = (
 				FEF1D6011CA392CF003DBE31 /* ViewController.m in Sources */,
 				FEF1D5FE1CA392CF003DBE31 /* AppDelegate.m in Sources */,
+				FEF1D6331CA39330003DBE31 /* mePickView.m in Sources */,
 				FEF1D5FB1CA392CF003DBE31 /* main.m in Sources */,
 				FEF1D6071CA392CF003DBE31 /* cityPickerDemo.xcdatamodeld in Sources */,
 			);
